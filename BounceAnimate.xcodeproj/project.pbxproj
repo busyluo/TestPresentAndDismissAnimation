@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256686041CAABC910050FAE0 /* NormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 256686031CAABC910050FAE0 /* NormalDismissAnimation.m */; };
 		25A881B61CA962880001D9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881B51CA962880001D9C3 /* main.m */; };
 		25A881B91CA962880001D9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881B81CA962880001D9C3 /* AppDelegate.m */; };
-		25A881BC1CA962880001D9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881BB1CA962880001D9C3 /* ViewController.m */; };
+		25A881BC1CA962880001D9C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881BB1CA962880001D9C3 /* RootViewController.m */; };
 		25A881BF1CA962880001D9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A881BD1CA962880001D9C3 /* Main.storyboard */; };
 		25A881C11CA962880001D9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A881C01CA962880001D9C3 /* Assets.xcassets */; };
 		25A881C41CA962880001D9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A881C21CA962880001D9C3 /* LaunchScreen.storyboard */; };
+		25A881CD1CA964910001D9C3 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881CC1CA964910001D9C3 /* ModalViewController.m */; };
+		25A881D11CA96D720001D9C3 /* BouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A881D01CA96D720001D9C3 /* BouncePresentAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		256686021CAABC910050FAE0 /* NormalDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDismissAnimation.h; sourceTree = "<group>"; };
+		256686031CAABC910050FAE0 /* NormalDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDismissAnimation.m; sourceTree = "<group>"; };
 		25A881B11CA962880001D9C3 /* BounceAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BounceAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A881B51CA962880001D9C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25A881B71CA962880001D9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25A881B81CA962880001D9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25A881BA1CA962880001D9C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25A881BB1CA962880001D9C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25A881BA1CA962880001D9C3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		25A881BB1CA962880001D9C3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		25A881BE1CA962880001D9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25A881C01CA962880001D9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A881C31CA962880001D9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25A881C51CA962880001D9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A881CB1CA964910001D9C3 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		25A881CC1CA964910001D9C3 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		25A881CF1CA96D720001D9C3 /* BouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentAnimation.h; sourceTree = "<group>"; };
+		25A881D01CA96D720001D9C3 /* BouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252B12561CABFE2B0012F4DD /* NormalDismissAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				256686021CAABC910050FAE0 /* NormalDismissAnimation.h */,
+				256686031CAABC910050FAE0 /* NormalDismissAnimation.m */,
+			);
+			name = NormalDismissAnimation;
+			sourceTree = "<group>";
+		};
 		25A881A81CA962880001D9C3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +76,19 @@
 		25A881B31CA962880001D9C3 /* BounceAnimate */ = {
 			isa = PBXGroup;
 			children = (
+				252B12561CABFE2B0012F4DD /* NormalDismissAnimation */,
+				25A881CE1CA96D2A0001D9C3 /* BouncePresentAnimation */,
 				25A881B71CA962880001D9C3 /* AppDelegate.h */,
 				25A881B81CA962880001D9C3 /* AppDelegate.m */,
-				25A881BA1CA962880001D9C3 /* ViewController.h */,
-				25A881BB1CA962880001D9C3 /* ViewController.m */,
+				25A881BA1CA962880001D9C3 /* RootViewController.h */,
+				25A881BB1CA962880001D9C3 /* RootViewController.m */,
 				25A881BD1CA962880001D9C3 /* Main.storyboard */,
 				25A881C01CA962880001D9C3 /* Assets.xcassets */,
 				25A881C21CA962880001D9C3 /* LaunchScreen.storyboard */,
 				25A881C51CA962880001D9C3 /* Info.plist */,
 				25A881B41CA962880001D9C3 /* Supporting Files */,
+				25A881CB1CA964910001D9C3 /* ModalViewController.h */,
+				25A881CC1CA964910001D9C3 /* ModalViewController.m */,
 			);
 			path = BounceAnimate;
 			sourceTree = "<group>";
@@ -77,6 +99,15 @@
 				25A881B51CA962880001D9C3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25A881CE1CA96D2A0001D9C3 /* BouncePresentAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				25A881CF1CA96D720001D9C3 /* BouncePresentAnimation.h */,
+				25A881D01CA96D720001D9C3 /* BouncePresentAnimation.m */,
+			);
+			name = BouncePresentAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A881BC1CA962880001D9C3 /* ViewController.m in Sources */,
+				25A881D11CA96D720001D9C3 /* BouncePresentAnimation.m in Sources */,
+				256686041CAABC910050FAE0 /* NormalDismissAnimation.m in Sources */,
+				25A881BC1CA962880001D9C3 /* RootViewController.m in Sources */,
 				25A881B91CA962880001D9C3 /* AppDelegate.m in Sources */,
 				25A881B61CA962880001D9C3 /* main.m in Sources */,
+				25A881CD1CA964910001D9C3 /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +335,7 @@
 				25A881CA1CA962880001D9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
