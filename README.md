@@ -1,2 +1,3 @@
 # TestPresentAndDismissAnimation
 练习使用传场动画
+在使用UIPercentDrivenInteractiveTransition时，一般做法是子类化这个类，在类里边写手势设置以及响应的代码，这样做能很好的降低耦合性，但对于刚学习的人来说，则不便于理解，于是按自己的理解作了修改。
